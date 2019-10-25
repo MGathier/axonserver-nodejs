@@ -1,0 +1,23 @@
+{
+  "name": "axonserver-nodejs",
+  "version": "1.0.0",
+  "description": "Sample nodejs application communicating with AxonServer",
+  "main": "app/app.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.1.0",
+    "express": "^4.17.1",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.11.0",
+    "os": "^0.1.1",
+    "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.5.3",
+    "uuid": "^3.3.3",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marc Gathier"
+}
